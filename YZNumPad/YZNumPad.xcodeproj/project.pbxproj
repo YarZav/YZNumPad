@@ -8,8 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		84107A53228AB90900A2B828 /* YZNumPad.h in Headers */ = {isa = PBXBuildFile; fileRef = 84107A51228AB90900A2B828 /* YZNumPad.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84FAC7B9228ABB1D00A84CD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FAC7B8228ABB1D00A84CD7 /* AppDelegate.swift */; };
+		84FAC7C0228ABB1E00A84CD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FAC7BF228ABB1E00A84CD7 /* Assets.xcassets */; };
+		84FAC7C3228ABB1E00A84CD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FAC7C1228ABB1E00A84CD7 /* LaunchScreen.storyboard */; };
+		84FAC7CE228ABB1F00A84CD7 /* YZNumPadExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FAC7CD228ABB1F00A84CD7 /* YZNumPadExampleUITests.swift */; };
+		84FAC7D7228ABB6300A84CD7 /* YZNumPadExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FAC7D6228ABB6300A84CD7 /* YZNumPadExampleViewController.swift */; };
+		84FAC7D9228ABC5F00A84CD7 /* YZNumPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FAC7D8228ABC5F00A84CD7 /* YZNumPadView.swift */; };
+		84FAC7DB228AC89400A84CD7 /* YZRoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FAC7DA228AC89400A84CD7 /* YZRoundButton.swift */; };
+		84FAC7DD228AC8B000A84CD7 /* YZHightLightRoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FAC7DC228AC8B000A84CD7 /* YZHightLightRoundButton.swift */; };
 		B5503842D8BF7EF8AEC3A920 /* libPods-YZNumPad.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC1BFEAF96F5059ABA824C4 /* libPods-YZNumPad.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84FAC7CA228ABB1F00A84CD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84107A45228AB90900A2B828 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84FAC7B5228ABB1D00A84CD7;
+			remoteInfo = YZNumPadExample;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		051AE0D57DD3B66F0AC68D33 /* Pods-YZNumPad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZNumPad.release.xcconfig"; path = "Pods/Target Support Files/Pods-YZNumPad/Pods-YZNumPad.release.xcconfig"; sourceTree = "<group>"; };
@@ -18,6 +36,18 @@
 		84107A4E228AB90900A2B828 /* YZNumPad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YZNumPad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84107A51228AB90900A2B828 /* YZNumPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZNumPad.h; sourceTree = "<group>"; };
 		84107A52228AB90900A2B828 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FAC7B6228ABB1D00A84CD7 /* YZNumPadExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZNumPadExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FAC7B8228ABB1D00A84CD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84FAC7BF228ABB1E00A84CD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84FAC7C2228ABB1E00A84CD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84FAC7C4228ABB1E00A84CD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FAC7C9228ABB1F00A84CD7 /* YZNumPadExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YZNumPadExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FAC7CD228ABB1F00A84CD7 /* YZNumPadExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZNumPadExampleUITests.swift; sourceTree = "<group>"; };
+		84FAC7CF228ABB1F00A84CD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FAC7D6228ABB6300A84CD7 /* YZNumPadExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZNumPadExampleViewController.swift; sourceTree = "<group>"; };
+		84FAC7D8228ABC5F00A84CD7 /* YZNumPadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZNumPadView.swift; sourceTree = "<group>"; };
+		84FAC7DA228AC89400A84CD7 /* YZRoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZRoundButton.swift; sourceTree = "<group>"; };
+		84FAC7DC228AC8B000A84CD7 /* YZHightLightRoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZHightLightRoundButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +56,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5503842D8BF7EF8AEC3A920 /* libPods-YZNumPad.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FAC7B3228ABB1D00A84CD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FAC7C6228ABB1F00A84CD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				84107A50228AB90900A2B828 /* YZNumPad */,
+				84FAC7B7228ABB1D00A84CD7 /* YZNumPadExample */,
+				84FAC7CC228ABB1F00A84CD7 /* YZNumPadExampleUITests */,
 				84107A4F228AB90900A2B828 /* Products */,
 				4F4D227080A0D2A5948C4C73 /* Pods */,
 				544965DF2F6CC7ECBE9DBDF9 /* Frameworks */,
@@ -63,6 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				84107A4E228AB90900A2B828 /* YZNumPad.framework */,
+				84FAC7B6228ABB1D00A84CD7 /* YZNumPadExample.app */,
+				84FAC7C9228ABB1F00A84CD7 /* YZNumPadExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,8 +120,32 @@
 			children = (
 				84107A51228AB90900A2B828 /* YZNumPad.h */,
 				84107A52228AB90900A2B828 /* Info.plist */,
+				84FAC7D8228ABC5F00A84CD7 /* YZNumPadView.swift */,
+				84FAC7DA228AC89400A84CD7 /* YZRoundButton.swift */,
+				84FAC7DC228AC8B000A84CD7 /* YZHightLightRoundButton.swift */,
 			);
 			path = YZNumPad;
+			sourceTree = "<group>";
+		};
+		84FAC7B7228ABB1D00A84CD7 /* YZNumPadExample */ = {
+			isa = PBXGroup;
+			children = (
+				84FAC7D6228ABB6300A84CD7 /* YZNumPadExampleViewController.swift */,
+				84FAC7B8228ABB1D00A84CD7 /* AppDelegate.swift */,
+				84FAC7BF228ABB1E00A84CD7 /* Assets.xcassets */,
+				84FAC7C1228ABB1E00A84CD7 /* LaunchScreen.storyboard */,
+				84FAC7C4228ABB1E00A84CD7 /* Info.plist */,
+			);
+			path = YZNumPadExample;
+			sourceTree = "<group>";
+		};
+		84FAC7CC228ABB1F00A84CD7 /* YZNumPadExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84FAC7CD228ABB1F00A84CD7 /* YZNumPadExampleUITests.swift */,
+				84FAC7CF228ABB1F00A84CD7 /* Info.plist */,
+			);
+			path = YZNumPadExampleUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,17 +181,61 @@
 			productReference = 84107A4E228AB90900A2B828 /* YZNumPad.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		84FAC7B5228ABB1D00A84CD7 /* YZNumPadExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84FAC7D4228ABB1F00A84CD7 /* Build configuration list for PBXNativeTarget "YZNumPadExample" */;
+			buildPhases = (
+				84FAC7B2228ABB1D00A84CD7 /* Sources */,
+				84FAC7B3228ABB1D00A84CD7 /* Frameworks */,
+				84FAC7B4228ABB1D00A84CD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YZNumPadExample;
+			productName = YZNumPadExample;
+			productReference = 84FAC7B6228ABB1D00A84CD7 /* YZNumPadExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84FAC7C8228ABB1F00A84CD7 /* YZNumPadExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84FAC7D5228ABB1F00A84CD7 /* Build configuration list for PBXNativeTarget "YZNumPadExampleUITests" */;
+			buildPhases = (
+				84FAC7C5228ABB1F00A84CD7 /* Sources */,
+				84FAC7C6228ABB1F00A84CD7 /* Frameworks */,
+				84FAC7C7228ABB1F00A84CD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84FAC7CB228ABB1F00A84CD7 /* PBXTargetDependency */,
+			);
+			name = YZNumPadExampleUITests;
+			productName = YZNumPadExampleUITests;
+			productReference = 84FAC7C9228ABB1F00A84CD7 /* YZNumPadExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		84107A45228AB90900A2B828 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = YZO;
 				TargetAttributes = {
 					84107A4D228AB90900A2B828 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
+					};
+					84FAC7B5228ABB1D00A84CD7 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					84FAC7C8228ABB1F00A84CD7 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 84FAC7B5228ABB1D00A84CD7;
 					};
 				};
 			};
@@ -129,6 +245,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 84107A44228AB90900A2B828;
 			productRefGroup = 84107A4F228AB90900A2B828 /* Products */;
@@ -136,12 +253,30 @@
 			projectRoot = "";
 			targets = (
 				84107A4D228AB90900A2B828 /* YZNumPad */,
+				84FAC7B5228ABB1D00A84CD7 /* YZNumPadExample */,
+				84FAC7C8228ABB1F00A84CD7 /* YZNumPadExampleUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		84107A4C228AB90900A2B828 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FAC7B4228ABB1D00A84CD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FAC7C3228ABB1E00A84CD7 /* LaunchScreen.storyboard in Resources */,
+				84FAC7C0228ABB1E00A84CD7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FAC7C7228ABB1F00A84CD7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -180,10 +315,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84FAC7D9228ABC5F00A84CD7 /* YZNumPadView.swift in Sources */,
+				84FAC7DB228AC89400A84CD7 /* YZRoundButton.swift in Sources */,
+				84FAC7DD228AC8B000A84CD7 /* YZHightLightRoundButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FAC7B2228ABB1D00A84CD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FAC7B9228ABB1D00A84CD7 /* AppDelegate.swift in Sources */,
+				84FAC7D7228ABB6300A84CD7 /* YZNumPadExampleViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FAC7C5228ABB1F00A84CD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FAC7CE228ABB1F00A84CD7 /* YZNumPadExampleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84FAC7CB228ABB1F00A84CD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84FAC7B5228ABB1D00A84CD7 /* YZNumPadExample */;
+			targetProxy = 84FAC7CA228ABB1F00A84CD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84FAC7C1228ABB1E00A84CD7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84FAC7C2228ABB1E00A84CD7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		84107A54228AB90900A2B828 /* Debug */ = {
@@ -312,6 +486,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 437FD3C29E47684BFA975EE8 /* Pods-YZNumPad.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -330,6 +505,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ru.YZO.YZNumPad;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -339,6 +515,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 051AE0D57DD3B66F0AC68D33 /* Pods-YZNumPad.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -362,6 +539,84 @@
 			};
 			name = Release;
 		};
+		84FAC7D0228ABB1F00A84CD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F62XB9J24B;
+				INFOPLIST_FILE = YZNumPadExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.YZO.YZNumPadExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84FAC7D1228ABB1F00A84CD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F62XB9J24B;
+				INFOPLIST_FILE = YZNumPadExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.YZO.YZNumPadExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84FAC7D2228ABB1F00A84CD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F62XB9J24B;
+				INFOPLIST_FILE = YZNumPadExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.YZO.YZNumPadExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YZNumPadExample;
+			};
+			name = Debug;
+		};
+		84FAC7D3228ABB1F00A84CD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F62XB9J24B;
+				INFOPLIST_FILE = YZNumPadExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.YZO.YZNumPadExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YZNumPadExample;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -379,6 +634,24 @@
 			buildConfigurations = (
 				84107A57228AB90900A2B828 /* Debug */,
 				84107A58228AB90900A2B828 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84FAC7D4228ABB1F00A84CD7 /* Build configuration list for PBXNativeTarget "YZNumPadExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FAC7D0228ABB1F00A84CD7 /* Debug */,
+				84FAC7D1228ABB1F00A84CD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84FAC7D5228ABB1F00A84CD7 /* Build configuration list for PBXNativeTarget "YZNumPadExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FAC7D2228ABB1F00A84CD7 /* Debug */,
+				84FAC7D3228ABB1F00A84CD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
