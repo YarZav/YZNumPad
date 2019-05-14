@@ -142,10 +142,7 @@ extension YZNumPadView {
     
     //Round button to show with number or other specific symbols
     private func createRoundButton(title: String, tag: Int) -> UIButton {
-        let roundButton = YZHightLightRoundButton(backgroundColor: self.config.buttonColor,
-                                                  radius: self.config.buttonRadius,
-                                                  borderColor: self.config.borderColor,
-                                                  borderWidth: self.config.buttonBorderWidth)
+        let roundButton = self.createHightLightRoundButton()
         roundButton.addTarget(self, action: #selector(roundButtonAction), for: .touchUpInside)
         roundButton.tag = tag
         roundButton.setTitle(title, for: .normal)
@@ -157,10 +154,7 @@ extension YZNumPadView {
     
     //Round button to show with number or other specific symbols
     private func createRoundButton(image: UIImage?, tag: Int) -> UIButton {
-        let roundButton = YZHightLightRoundButton(backgroundColor: self.config.buttonColor,
-                                                  radius: self.config.buttonRadius,
-                                                  borderColor: self.config.borderColor,
-                                                  borderWidth: self.config.buttonBorderWidth)
+        let roundButton = self.createHightLightRoundButton()
         roundButton.addTarget(self, action: #selector(roundButtonAction), for: .touchUpInside)
         roundButton.tag = tag
         roundButton.setImage(image, for: .normal)
@@ -168,4 +162,20 @@ extension YZNumPadView {
         
         return roundButton
     }
+    
+    //Highlight round button
+    private func createHightLightRoundButton() -> YZHightLightRoundButton {
+        let radius = self.config.buttonRadius
+        let hightLightRoundButton = YZHightLightRoundButton(backgroundColor: self.config.buttonColor,
+                                                 radius: radius,
+                                                 borderColor: self.config.borderColor,
+                                                 borderWidth: self.config.buttonBorderWidth)
+        
+        hightLightRoundButton.translatesAutoresizingMaskIntoConstraints = false
+        NSLayoutConstraint(item: hightLightRoundButton, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1, constant: radius * 2).isActive = true
+        NSLayoutConstraint(item: hightLightRoundButton, attribute: .width, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1, constant: radius * 2).isActive = true
+        
+        return hightLightRoundButton
+    }
 }
+
