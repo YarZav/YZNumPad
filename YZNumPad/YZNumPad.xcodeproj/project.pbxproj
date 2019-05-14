@@ -8,9 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		84107A53228AB90900A2B828 /* YZNumPad.h in Headers */ = {isa = PBXBuildFile; fileRef = 84107A51228AB90900A2B828 /* YZNumPad.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5503842D8BF7EF8AEC3A920 /* libPods-YZNumPad.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC1BFEAF96F5059ABA824C4 /* libPods-YZNumPad.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		051AE0D57DD3B66F0AC68D33 /* Pods-YZNumPad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZNumPad.release.xcconfig"; path = "Pods/Target Support Files/Pods-YZNumPad/Pods-YZNumPad.release.xcconfig"; sourceTree = "<group>"; };
+		437FD3C29E47684BFA975EE8 /* Pods-YZNumPad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZNumPad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YZNumPad/Pods-YZNumPad.debug.xcconfig"; sourceTree = "<group>"; };
+		4FC1BFEAF96F5059ABA824C4 /* libPods-YZNumPad.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YZNumPad.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84107A4E228AB90900A2B828 /* YZNumPad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YZNumPad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84107A51228AB90900A2B828 /* YZNumPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZNumPad.h; sourceTree = "<group>"; };
 		84107A52228AB90900A2B828 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -21,17 +25,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5503842D8BF7EF8AEC3A920 /* libPods-YZNumPad.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F4D227080A0D2A5948C4C73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				437FD3C29E47684BFA975EE8 /* Pods-YZNumPad.debug.xcconfig */,
+				051AE0D57DD3B66F0AC68D33 /* Pods-YZNumPad.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		544965DF2F6CC7ECBE9DBDF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FC1BFEAF96F5059ABA824C4 /* libPods-YZNumPad.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		84107A44228AB90900A2B828 = {
 			isa = PBXGroup;
 			children = (
 				84107A50228AB90900A2B828 /* YZNumPad */,
 				84107A4F228AB90900A2B828 /* Products */,
+				4F4D227080A0D2A5948C4C73 /* Pods */,
+				544965DF2F6CC7ECBE9DBDF9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +94,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84107A56228AB90900A2B828 /* Build configuration list for PBXNativeTarget "YZNumPad" */;
 			buildPhases = (
+				6A0B1B2D949206F07DA8F3C7 /* [CP] Check Pods Manifest.lock */,
 				84107A49228AB90900A2B828 /* Headers */,
 				84107A4A228AB90900A2B828 /* Sources */,
 				84107A4B228AB90900A2B828 /* Frameworks */,
@@ -124,6 +149,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A0B1B2D949206F07DA8F3C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YZNumPad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		84107A4A228AB90900A2B828 /* Sources */ = {
@@ -260,6 +310,7 @@
 		};
 		84107A57228AB90900A2B828 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 437FD3C29E47684BFA975EE8 /* Pods-YZNumPad.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +337,7 @@
 		};
 		84107A58228AB90900A2B828 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 051AE0D57DD3B66F0AC68D33 /* Pods-YZNumPad.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
