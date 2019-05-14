@@ -1,8 +1,0 @@
-workspace 'YZNumPad.xcworkspace'
-project 'YZNumPad.xcodeproj'
-platform :ios, :deployment_target => '11.0'
-
-target :YZNumPad do
-    
-    project 'YZNumPad.xcodeproj'
-end
