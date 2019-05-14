@@ -35,9 +35,5 @@ extension YZRoundButton {
         self.layer.cornerRadius = radius
         self.layer.borderWidth = 1
         self.layer.borderColor = borderColor.cgColor
-        
-        self.translatesAutoresizingMaskIntoConstraints = false
-        NSLayoutConstraint(item: self, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1, constant: radius * 2).isActive = true
-        NSLayoutConstraint(item: self, attribute: .width, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1, constant: radius * 2).isActive = true
     }
 }
