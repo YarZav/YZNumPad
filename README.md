@@ -1,7 +1,7 @@
 # YZNumPad
 IOS framework to show simple number pad with decimal point
 
-![Example](/YZNumpadExample)
+![Example](/YZNumpadExample.png)
 
 ## Features
 - Swift 4.2.
