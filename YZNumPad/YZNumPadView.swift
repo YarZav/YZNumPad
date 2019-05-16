@@ -158,7 +158,6 @@ extension YZNumPadView {
         roundButton.addTarget(self, action: #selector(roundButtonAction), for: .touchUpInside)
         roundButton.tag = tag
         roundButton.setImage(image, for: .normal)
-        roundButton.imageView?.contentMode = .scaleAspectFit
         
         return roundButton
     }
