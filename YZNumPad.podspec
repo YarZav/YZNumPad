@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
    s.summary = "YZNumPad this is simple number pad"
    s.requires_arc = true
 
-   s.version = "1.0.1"
+   s.version = "1.0.0"
 
    s.author = { "Yaroslav Zavyalov" => "yaroslavzavyalov1@gmail.com" }
 
@@ -20,6 +20,6 @@ Pod::Spec.new do |s|
 
    s.resources = "YZNumPad/**/*.{png,jpeg,jpg,storyboard,xib}"
    s.resource_bundles = {
-      'YZNumPad' => ['YZNumPadt/**/*.xcassets']
+      'YZNumPad' => ['YZNumPad/**/*.xcassets']
    }
 end
